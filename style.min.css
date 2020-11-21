@@ -3,7 +3,7 @@ Theme Name: Rosepharma
 Theme URI: http://underscores.me/
 Author: Me
 Author URI: http://underscores.me/
-Description: Custom theme: Rosepharma, developed by Me
+Description: Custom theme: Rosepharma, developed by Andrea Zotti
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
@@ -139,6 +139,20 @@ textarea{width:100%}
 .alignleft{float:left;margin-right:1.5em;margin-bottom:1.5em}
 .alignright{float:right;margin-left:1.5em;margin-bottom:1.5em}
 .aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;margin-bottom:1.5em}
+.page-wrapper{width:100%;margin:0 auto}
+.page-wrapper::after{content:"";display:table;clear:both}
+.columns-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:distribute;justify-content:space-around;width:100%}
+.columns-wrapper.justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:row wrap;flex-wrap:row wrap;-webkit-box-flex:0;-ms-flex:0 1 auto;flex:0 1 auto;margin-left:-.5rem;margin-right:-.5rem}
+.row.justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.box{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;-ms-flex-preferred-size:100%;flex-basis:100%;padding:1rem;position:relative;overflow:hidden}
+.box.nopadding{padding:0}
+.box.col-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}
+.box.col-8{-ms-flex-preferred-size:66.666%;flex-basis:66.666%;max-width:66.666%}
+.box.col-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}
+.box.col-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}
+.box.col-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}
 @media screen and (min-width:37.5em){.menu-toggle{display:none}
 .main-navigation ul{display:-webkit-box;display:-ms-flexbox;display:flex}
 }
