@@ -1,0 +1,22 @@
+.display-section {
+	height: 100vw;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	//overflow: hidden;
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 50%;
+
+		display: block;
+		content: "";
+		width: 20rem;
+		height: 0.5rem;
+		background: $color-text;
+
+		transform-origin: center center;
+		transform: rotate(-90deg) translate(-50%, -50%);
+	}
+}

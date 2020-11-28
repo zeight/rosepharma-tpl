@@ -21,9 +21,52 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/grid";
+@import "partials/mediaqueries";
+@import "partials/fonts";
 
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-@import 'partials/reset';
-@import 'partials/grid';
-@import 'partials/variables';
-@import 'partials/mediaqueries';
+body {
+	font-family: "Raleway", sans-serif;
+	color: $color-text;
+	font-size: 100%;
+	font-size: 1.3rem;
+	line-height: 120%;
+	font-weight: 300;
+}
+
+// THEME
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Cormorant", Georgia, serif;
+	font-weight: bold;
+	line-height: 105%;
+	text-transform: uppercase;
+	color: $color-highlight;
+	padding: 1rem 0;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+.site-header {
+	width: 100%;
+}
+
+@import "partials/homepage";
