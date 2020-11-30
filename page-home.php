@@ -18,13 +18,18 @@ get_header();
 			<section class="container full section-0">
 				<div class="columns-wrapper display-section even">
 						<div class="box col-12 nopadding">
-							 <video playsInline autoPlay="true" muted loop id="mainVid" className="video-player">
+							 <!-- <video playsInline controls id="mainVid" className="video-player">
 									<source src="<?php bloginfo('template_url'); ?>/assets/img/home-video.mp4" type="video/mp4" />
 									Sorry, your browser doesn't support embedded videos.
-								</video> 
-								<div class="video-logo">
+								</video>  -->
+
+								<video id="player" playsinline controls>
+									<source src="<?php bloginfo('template_url'); ?>/assets/img/home-video.mp4" type="video/mp4" />
+								</video>
+
+								<!-- <div class="video-logo">
 									<img src="<?php bloginfo('template_url'); ?>/assets/img/zohabex_logo.svg" alt="">			
-								</div> 
+								</div>  -->
 						</div>
 					</div>
 		</section>

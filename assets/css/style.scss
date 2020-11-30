@@ -28,6 +28,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "partials/mediaqueries";
 @import "partials/fonts";
 
+:root {
+	--plyr-color-main: #b49653;
+	--plyr-video-controls-background: transparent;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
 	border: 0;
