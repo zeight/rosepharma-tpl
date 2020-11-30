@@ -189,59 +189,6 @@ solutions to be you – at your best.</p>
 			</div>
 		</section>
 	</div>	
-	
-
-	<div class="wrapper">
-		<section class="container full section-2">
-			<div class="container">
-				<div class="columns-wrapper display-section odd">
-					<div class="box col-12 center">
-						<h2>Rose Pharma</h2>
-						<p>About Rose Pharma: the company<br/>
-
-ROSE PHARMA SA is an Italian company currently based in Lugano, Switzerland. The company was established in 2011, mainly
-focusing on aesthetic treatments for dermatology, gynaecology and plastic surgery.</p>
-
-<p>
-About Rose Pharma: R&D<br/>
-Our company is focused on research, development and manufacturing of hyaluronic acid based dermal fi llers and innovative
-dermal aesthetic treatments. Our hyaluronic acid dermal fi llers are premium products, specially developed to off er a range of
-functions that meet the main problems related to skin ageing. Our research and development department is actively working to
-bring new solutions and updates that represent the state of the art of the reference sector.</p>
-
-<p>
-About Rose Pharma: our goals<br/>
-Our main goals are to revitalize natural beauty and help regaining the physiological functionality of the tissues. In order to
-achieve our goals we explore all the benefi cial properties of hyaluronic acid based global treatments. Moving along the line of
-medical treatments that meet the needs of patients and doctors, we off er cutting-edge solutions in line with the reference market.</p>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-	</div>	
-
-	<div class="wrapper">
-		<section class="container full section-single-image">
-			<div class="container">
-				<div class="columns-wrapper display-section odd">
-						<div class="box col-6 ">
-							<h2>Find out our product</h2>
-							<p>Enter a world of beauty, care and premium
-products for your skin.
-Rose Pharma develops safe treatments for the
-daily routine, eff ective cosmetics and professional
-solutions to be you – at your best.</p>
-
-<a class="body-link" href="#"><span>Find out</span></a>
-						</div>
-						<div class="box col-6">
-							<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
-						</div>
-				</div>
-			</div>
-		</section>
-	</div>	
 
 
 	<div class="wrapper">

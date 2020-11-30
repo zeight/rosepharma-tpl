@@ -136,5 +136,15 @@ a.body-link:hover::before{left:50%;width:0;border-color:transparent}
 .professionals-page .section-8 .display-section{padding:0;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .professionals-page .section-8 .display-section div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:1rem 3rem}
 .professionals-page .section-8 .display-section div:nth-child(2){background-color:white}
+.distribution-page .section-0 h2{color:#959094}
+.distribution-page .section-0 .display-section{height:19.5rem;min-height:19.5rem;padding:0}
+.distribution-page .section-0 .display-section::before,.distribution-page .section-0 .display-section::after{display:none}
+.distribution-page .section-1{background-image:url("./assets/img/about-section-1.jpg");background-position:top center;background-size:cover;background-repeat:no-repeat}
+.distribution-page .section-2 .display-section{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+.distribution-page .section-7 .display-section{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+.distribution-page .section-8{background-color:#f3f6f5}
+.distribution-page .section-8 .display-section{padding:0;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
+.distribution-page .section-8 .display-section div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:1rem 3rem}
+.distribution-page .section-8 .display-section div:nth-child(2){background-color:white}
 @media screen and (min-width:37.5em){.site-header .menu-toggle{display:none}
 }
