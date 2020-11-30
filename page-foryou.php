@@ -15,7 +15,7 @@ get_header();
 	<main d="primary" class="wrapper full foryou-page">
 
 	<div class="wrapper">
-			<section class="container full section-0">
+			<section class="container full section-header">
 				<div class="container">
 					<div class="columns-wrapper display-section even">
 						<div class="box col-6">

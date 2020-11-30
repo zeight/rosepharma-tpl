@@ -70,7 +70,7 @@ get_header();
 	</div>	
 
 	<div class="wrapper">
-			<section class="container full section-3">
+			<section class="container full bubble-background">
 				<div class="container">
 					<div class="columns-wrapper display-section odd">
 						<div class="box col-6">

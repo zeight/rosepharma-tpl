@@ -1,35 +1,4 @@
 .acid-page {
-	.section-0 {
-		h2 {
-			color: $color-text;
-		}
-
-		.display-section {
-			height: 19.5rem;
-			min-height: 19.5rem;
-			padding: 0;
-			&::before,
-			&::after {
-				display: none;
-			}
-		}
-	}
-
-	.section-1 {
-		background-image: url("./assets/img/section-3.png");
-		background-position: top center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-color: $color-beige;
-	}
-
-	// .section-1 {
-	// 	background-image: url("./assets/img/about-section-1.jpg");
-	// 	background-position: top center;
-	// 	background-size: cover;
-	// 	background-repeat: no-repeat;
-	// }
-
 	.section-2 {
 		.display-section {
 			flex-direction: row;

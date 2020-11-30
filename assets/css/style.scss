@@ -339,8 +339,31 @@ a.body-link {
 // PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
 // PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
 
+.section-header {
+	h2 {
+		color: $color-text;
+	}
+
+	.display-section {
+		height: 19.5rem;
+		min-height: 19.5rem;
+		padding: 0;
+		&::before,
+		&::after {
+			display: none;
+		}
+	}
+}
+
 .bubble-background {
-	background-image: url("./assets/img/section-3.png");
+	background-image: url("./assets/img/bubbles.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $color-beige;
+}
+.bubble-background-reverse {
+	background-image: url("./assets/img/reverse-bubbles.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;

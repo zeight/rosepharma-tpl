@@ -64,9 +64,6 @@
 .columns-wrapper {
 	&.column {
 		flex-flow: column wrap;
-		&.box {
-			flex-grow: 1;
-		}
 	}
 }
 .center {

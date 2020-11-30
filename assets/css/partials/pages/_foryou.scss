@@ -1,20 +1,4 @@
 .foryou-page {
-	.section-0 {
-		h2 {
-			color: $color-text;
-		}
-
-		.display-section {
-			height: 19.5rem;
-			min-height: 19.5rem;
-			padding: 0;
-			&::before,
-			&::after {
-				display: none;
-			}
-		}
-	}
-
 	.section-1 {
 		background-image: url("./assets/img/section-1.jpg");
 		background-position: top center;

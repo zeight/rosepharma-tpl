@@ -43,14 +43,6 @@
 		}
 	}
 
-	.section-3 {
-		background-image: url("./assets/img/section-3.png");
-		background-position: top center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-color: $color-beige;
-	}
-
 	.section-5 .display-section {
 		&::after {
 			display: none;

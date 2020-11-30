@@ -15,7 +15,7 @@ get_header();
 	<main d="primary" class="wrapper full acid-page">
 
 	<div class="wrapper">
-			<section class="container full section-0">
+			<section class="container full section-header">
 				<div class="container">
 					<div class="columns-wrapper display-section even">
 						<div class="box col-6">
@@ -30,7 +30,7 @@ get_header();
 	</div>
 
 	<div class="wrapper">
-			<section class="container full section-1">
+			<section class="container full bubble-background-reverse">
 				<div class="container">
 					<div class="columns-wrapper display-section odd">
 						<div class="box col-6 ">
