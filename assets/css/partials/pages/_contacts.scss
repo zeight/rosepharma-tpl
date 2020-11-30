@@ -1,0 +1,38 @@
+.contacts-page {
+	.section-0 {
+		h2 {
+			color: $color-text;
+		}
+
+		.display-section {
+			height: 19.5rem;
+			min-height: 19.5rem;
+			padding: 0;
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.section-3 {
+		background-color: $color-beige;
+
+		.display-section {
+			padding: 0;
+			align-items: stretch;
+
+			div {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: center;
+				padding: 1rem 3rem;
+			}
+
+			div:nth-child(2) {
+				background-color: $color-background;
+			}
+		}
+	}
+}

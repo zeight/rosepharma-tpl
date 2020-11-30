@@ -1,0 +1,57 @@
+.foryou-page {
+	.section-0 {
+		h2 {
+			color: $color-text;
+		}
+
+		.display-section {
+			height: 19.5rem;
+			min-height: 19.5rem;
+			padding: 0;
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.section-1 {
+		background-image: url("./assets/img/section-1.jpg");
+		background-position: top center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.section-3 {
+		background-image: url("./assets/img/foryou-section-3.jpg");
+		background-position: center right;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		.image-back {
+			align-self: stretch;
+			justify-self: stretch;
+		}
+	}
+
+	.section-4 {
+		background-color: $color-beige;
+
+		.display-section {
+			padding: 0;
+			align-items: stretch;
+
+			div {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: center;
+				padding: 1rem 3rem;
+			}
+
+			div:nth-child(2) {
+				background-color: $color-background;
+			}
+		}
+	}
+}
