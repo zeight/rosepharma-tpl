@@ -51,7 +51,7 @@ get_header();
 		<section class="container full section-2">
 			<div class="container">
 				<div class="columns-wrapper display-section even">
-						<div class="box col-6">
+						<div class="box col-6 image-box">
 							<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
 						</div>					
 						<div class="box col-6 ">

@@ -85,13 +85,13 @@ get_header();
 	</div>	
 
 	<div class="wrapper">
-		<section class="container full section-4">
+		<section class="container full section-single-image">
 			<div class="container">
 				<div class="columns-wrapper display-section even">
-						<div class="box col-6">
+						<div class="box col-6 image-box">
 							<img src="<?php bloginfo('template_url'); ?>/assets/img/section-4.jpg" alt="">
 						</div>
-						<div class="box col-6 ">
+						<div class="box col-6">
 							<h2>Did you know?</h2>
 							<p>What happens to your skin as you age?How can you prevent signs of ageing?And which are the best, safest and most eff ective anti-ageing treatments?<b>Rose Pharma will ask to your questions.</b></p>
 						</div>
