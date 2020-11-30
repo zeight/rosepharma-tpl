@@ -60,6 +60,15 @@
 		justify-content: flex-end;
 	}
 }
+
+.columns-wrapper {
+	&.column {
+		flex-flow: column wrap;
+		&.box {
+			flex-grow: 1;
+		}
+	}
+}
 .center {
 	text-align: center;
 }

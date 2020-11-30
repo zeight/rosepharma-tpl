@@ -90,24 +90,27 @@ accurate and improving the experience for patients.</p>
 			<div class="container">
 				<div class="columns-wrapper display-section odd">
 					<div class="box col-12 center">
-						<h2>Rose Pharma</h2>
-						<p>About Rose Pharma: the company<br/>
+						<h2>Hyaluronic Acid</h2>
+						<p>The application of synthetic hyaluronic acid is an effective, gentle and minimally invasive treatment: very small drops are placed
+under the skin and distributed along the ideal lines of the face, to give a sculpting effect of the contours and a targeted increase in
+volume.
 
-ROSE PHARMA SA is an Italian company currently based in Lugano, Switzerland. The company was established in 2011, mainly
-focusing on aesthetic treatments for dermatology, gynaecology and plastic surgery.</p>
+The tissues in the injection area are lifted and plumped, restoring an aesthetically appreciable tension to the general appearance
+of the surrounding areas.
 
-<p>
-About Rose Pharma: R&D<br/>
-Our company is focused on research, development and manufacturing of hyaluronic acid based dermal fi llers and innovative
-dermal aesthetic treatments. Our hyaluronic acid dermal fi llers are premium products, specially developed to off er a range of
-functions that meet the main problems related to skin ageing. Our research and development department is actively working to
-bring new solutions and updates that represent the state of the art of the reference sector.</p>
+To obtain a natural and elegant result, while minimizing the patient’s discomfort, the research has developed very thin and flexible
+needles, almost imperceptible to most people.
 
-<p>
-About Rose Pharma: our goals<br/>
-Our main goals are to revitalize natural beauty and help regaining the physiological functionality of the tissues. In order to
-achieve our goals we explore all the benefi cial properties of hyaluronic acid based global treatments. Moving along the line of
-medical treatments that meet the needs of patients and doctors, we off er cutting-edge solutions in line with the reference market.</p>
+Zhoabex has developed several injectable hyaluronic acid formulas, so that they can be adapted to different uses, and the range
+of products is continuously expanded: from fillers for replacing natural hyaluronic acid, up to fillers dedicated to treatments of
+more structural type.
+
+Lip fillers, for example, are formulated to keep the tissue soft but plumped, while the cheekbone lift has a formula suitable for
+stronger solidity and resistance, and so on for the many treatments required.
+
+In this field it is essential to be a well informed and demanding customer and ask for a doctor with superior training, expert in facial
+anatomy and aesthetic medicine, sensitive to uor requests and with proven experience in the choice and use of the most suitable
+fillers.</p>
 					</div>
 					
 				</div>

@@ -94,6 +94,10 @@ h5 {
 	text-transform: uppercase;
 	color: $color-highlight;
 	padding: 1rem 0;
+
+	&.lowercase {
+		text-transform: none;
+	}
 }
 
 h2 {
@@ -335,6 +339,18 @@ a.body-link {
 // PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
 // PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
 
+.bubble-background {
+	background-image: url("./assets/img/section-3.png");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $color-beige;
+}
+
+.alt-background {
+	background-color: $color-beige;
+}
+
 @import "partials/pages/homepage";
 @import "partials/pages/about";
 @import "partials/pages/foryou";
@@ -342,3 +358,4 @@ a.body-link {
 @import "partials/pages/professionals";
 @import "partials/pages/distribution";
 @import "partials/pages/acid";
+@import "partials/pages/didyouknow";
