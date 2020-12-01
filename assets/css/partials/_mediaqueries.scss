@@ -1,0 +1,30 @@
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.4rem;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+
+	// BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT
+	// BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT
+	// BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT
+
+	.display-section {
+		min-height: unset;
+
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+
+		&::before {
+			width: 5rem;
+		}
+
+		&::after {
+			width: 5rem;
+		}
+	}
+}

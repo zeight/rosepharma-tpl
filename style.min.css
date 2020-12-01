@@ -163,4 +163,20 @@ a.body-link:hover::before{left:50%;width:0;border-color:transparent}
 .post-page .entry-content{font-size:1rem;padding:2rem 0}
 .nav-links{font-size:1rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 @media screen and (min-width:37.5em){.site-header .menu-toggle{display:none}
+}@media only screen and (max-width:480px){.box>img{width:auto;max-width:80%;height:auto !important;display:block;padding:0;margin:0}
+.box.col-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-10{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-9{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-8{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-6{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-5{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-4{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-3{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+.box.col-2{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+h1{font-size:2rem}
+h2{font-size:1.4rem}
+h3{font-size:1rem}
+.display-section{min-height:unset;padding-top:5rem;padding-bottom:5rem}
+.display-section::before{width:5rem}
+.display-section::after{width:5rem}
 }

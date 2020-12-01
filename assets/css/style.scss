@@ -25,7 +25,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "partials/reset";
 //@import "partials/wpreset";
 @import "partials/grid";
-@import "partials/mediaqueries";
 @import "partials/fonts";
 
 :root {
@@ -135,9 +134,6 @@ p {
 
 .site-header {
 	width: 100%;
-	// position: fixed;
-	// top: 0;
-	// z-index: 1000;
 	background-color: $color-background;
 
 	.header-logo-container {
@@ -389,3 +385,10 @@ a.body-link {
 @import "partials/pages/didyouknow";
 
 @import "partials/news";
+
+// MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES
+// MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES
+// MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES
+// Keep it here! :)
+
+@import "partials/mediaqueries";
