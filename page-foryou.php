@@ -32,7 +32,7 @@ get_header();
 		<div class="wrapper">
 			<section class="container full section-1">
 				<div class="container">
-					<div class="columns-wrapper display-section odd">
+					<div class="columns-wrapper display-section odd mobile-reverse">
 						<div class="box col-5">
 						</div>
 						<div class="box col-2">

@@ -1,12 +1,24 @@
 @media only screen and (max-width: 480px) {
 	h1 {
-		font-size: 2rem;
+		font-size: 2.8rem;
 	}
 	h2 {
-		font-size: 1.4rem;
+		font-size: 2.3rem;
 	}
 	h3 {
 		font-size: 1rem;
+	}
+
+	// HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER
+	// HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER
+	// HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER
+
+	.site-header {
+		.header-logo-container {
+			img {
+				max-width: 5rem;
+			}
+		}
 	}
 
 	// BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT BODY CONTENT
@@ -15,6 +27,8 @@
 
 	.display-section {
 		min-height: unset;
+		justify-content: flex-start;
+		align-items: flex-start;
 
 		padding-top: 5rem;
 		padding-bottom: 5rem;
@@ -25,6 +39,71 @@
 
 		&::after {
 			width: 5rem;
+		}
+	}
+
+	a.body-link {
+		@include transitionall(0.2s);
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		position: relative;
+
+		color: $color-text;
+		text-decoration: none;
+		padding: 0;
+		padding: 1rem 0.5rem;
+
+		span {
+			display: inline-block;
+			padding: 0 0.5rem;
+		}
+
+		&::before {
+			@include transitionall(0.2s);
+			content: "";
+			display: block;
+			position: absolute;
+			width: 100%;
+			top: 50%;
+			left: 0;
+			height: 1px;
+			border: 1px solid $color-text;
+
+			mask-image: linear-gradient(
+				to right,
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 1) 20%,
+				rgba(0, 0, 0, 0) 20%,
+				rgba(0, 0, 0, 0) 80%,
+				rgba(0, 0, 0, 1) 80%,
+				rgba(0, 0, 0, 1) 100%
+			);
+		}
+	}
+
+	// PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
+	// PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
+	// PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES PAGES
+
+	.greek-background {
+		background-position: bottom center;
+	}
+
+	.bubble-background {
+		background-position: 80% center;
+	}
+
+	// FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
+	// FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
+	// FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
+
+	.footer {
+		text-align: center;
+		.footer-logo-container {
+			img {
+				max-width: 5rem;
+			}
 		}
 	}
 }

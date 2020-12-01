@@ -90,12 +90,12 @@ medical treatments that meet the needs of patients and doctors, we off er cuttin
 						<div class="box col-6 ">
 							<h2>Find out our product</h2>
 							<p>Enter a world of beauty, care and premium
-products for your skin.
-Rose Pharma develops safe treatments for the
-daily routine, eff ective cosmetics and professional
-solutions to be you – at your best.</p>
+									products for your skin.
+									Rose Pharma develops safe treatments for the
+									daily routine, eff ective cosmetics and professional
+									solutions to be you – at your best.</p>
 
-<a class="body-link" href="#"><span>Find out</span></a>
+									<a class="body-link" href="#"><span>Find out</span></a>
 						</div>
 						<div class="box col-6 image-box">
 							<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">

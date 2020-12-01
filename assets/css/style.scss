@@ -150,7 +150,7 @@ p {
 	//@import "partials/navigation";
 
 	.main-navigation ul.nav-menu {
-		display: flex;
+		display: none;
 		justify-content: space-around;
 
 		li {
@@ -167,9 +167,43 @@ p {
 		}
 	}
 
+	.menu-toggle {
+		display: block;
+		margin: 0 auto;
+
+		border: 0;
+		background-color: transparent;
+		padding: 0.5rem;
+		background-image: url("./assets/img/menu-toggle.svg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 6rem;
+		height: 3rem;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.main-navigation.toggled ul.nav-menu {
+		display: block;
+
+		li {
+			a {
+				display: block;
+				padding: 0.5rem 1rem;
+				text-align: center;
+			}
+		}
+	}
+
 	@media screen and (min-width: 37.5em) {
 		.menu-toggle {
 			display: none;
+		}
+
+		.main-navigation ul.nav-menu {
+			display: flex;
 		}
 	}
 }
@@ -243,7 +277,7 @@ p {
 		background: $color-highlight;
 
 		transform-origin: center center;
-		transform: translate(-55%, -50%) rotate(90deg);
+		transform: translate(-50%, -50%) rotate(90deg);
 		z-index: 100;
 	}
 
@@ -259,7 +293,7 @@ p {
 		background: $color-text;
 
 		transform-origin: center center;
-		transform: translate(-55%, 50%) rotate(90deg);
+		transform: translate(-50%, 50%) rotate(90deg);
 		z-index: 100;
 	}
 
@@ -354,6 +388,13 @@ a.body-link {
 			display: none;
 		}
 	}
+}
+
+.greek-background {
+	background-image: url("./assets/img/section-1.jpg");
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .bubble-background {
