@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-	<main d="primary" class="wrapper full acid-page">
+	<main id="primary" class="wrapper full acid-page">
 
 	<div class="wrapper">
 			<section class="container full section-header">

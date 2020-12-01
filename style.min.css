@@ -148,5 +148,13 @@ a.body-link:hover::before{left:50%;width:0;border-color:transparent}
 .acid-page .section-8 .display-section div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:1rem 3rem}
 .acid-page .section-8 .display-section div:nth-child(2){background-color:white}
 .didyouknow-page .section-which-filler .image-back{-ms-flex-item-align:stretch;align-self:stretch;justify-self:stretch;background-image:url("./assets/img/about-section-0.jpg");background-position:center left;background-size:contain;background-repeat:no-repeat}
+.archive-page .page-header{padding:10rem 0;background-image:url("./assets/img/about-section-1.jpg");background-position:top right;background-size:cover;background-repeat:no-repeat}
+.archive-page .archive-title{font-family:"Cormorant",Georgia,serif;font-weight:bold;line-height:105%;text-transform:uppercase;color:#959094;padding:1rem 0;font-size:3.5rem}
+.grid-item{margin-bottom:2rem}
+.grid-item img{display:block;min-width:100%;border:2px solid #b49653}
+.grid-item .entry-title h1{text-transform:none;font-size:1.5rem}
+.grid-item .entry-title:hover{text-decoration:none}
+.grid-item .entry-content{font-size:1rem}
+.grid-item .readmore-link{font-size:1rem;font-weight:bold}
 @media screen and (min-width:37.5em){.site-header .menu-toggle{display:none}
 }

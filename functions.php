@@ -7,6 +7,7 @@
  * @package Rosepharma
  */
 
+
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
@@ -46,6 +47,33 @@ if ( ! function_exists( 'rosepharma_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
+		set_post_thumbnail_size( 800, 800 ); // dimensioni di default della miniatura
+		add_image_size( 'post-thumbnail-wide', 1920, 800, true );
+
+		/*
+		* Set custom excerpt length
+		*
+		* @link https://developer.wordpress.org/reference/hooks/excerpt_length/
+		*/		
+		function mytheme_custom_excerpt_length( $length ) {
+				return 20;
+		}
+		add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );		
+
+		add_filter( 'get_the_archive_title', function ( $title ) {
+			if ( is_category() ) {    
+							$title = single_cat_title( '', false );    
+					} elseif ( is_tag() ) {    
+							$title = single_tag_title( '', false );    
+					} elseif ( is_author() ) {    
+							$title = '<span class="vcard">' . get_the_author() . '</span>' ;    
+					} elseif ( is_tax() ) { //for custom post types
+							$title = sprintf( __( '%1$s' ), single_term_title( '', false ) );
+					} elseif (is_post_type_archive()) {
+							$title = post_type_archive_title( '', false );
+					}
+			return $title;
+		});		
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
@@ -182,3 +210,5 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+?>

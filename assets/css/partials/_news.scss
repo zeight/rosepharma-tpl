@@ -1,0 +1,46 @@
+.archive-page {
+	.page-header {
+		padding: 10rem 0;
+
+		background-image: url("./assets/img/about-section-1.jpg");
+		background-position: top right;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.archive-title {
+		font-family: "Cormorant", Georgia, serif;
+		font-weight: bold;
+		line-height: 105%;
+		text-transform: uppercase;
+		color: $color-text;
+		padding: 1rem 0;
+		font-size: 3.5rem;
+	}
+}
+
+.grid-item {
+	margin-bottom: 2rem;
+	img {
+		display: block;
+		min-width: 100%;
+		border: 2px solid $color-highlight;
+	}
+	.entry-title {
+		h1 {
+			text-transform: none;
+			font-size: 1.5rem;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.entry-content {
+		font-size: 1rem;
+	}
+
+	.readmore-link {
+		font-size: 1rem;
+		font-weight: bold;
+	}
+}
