@@ -74,7 +74,7 @@ professional hyaluronic acid injection.
 	
 
 		<div class="wrapper">
-			<section class="container full section-8">
+			<section class="container full section-triple">
 				<div class="container">
 					<div class="columns-wrapper display-section odd">
 						<div class="box col-4">

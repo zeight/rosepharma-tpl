@@ -74,6 +74,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	outline: none;
+	@include transitionall(0.5s);
 }
 
 body {
@@ -83,6 +85,8 @@ body {
 	font-size: 1.325rem;
 	line-height: 120%;
 	font-weight: 300;
+
+	padding-top: $header-height;
 }
 
 // THEME
@@ -135,6 +139,12 @@ p {
 .site-header {
 	width: 100%;
 	background-color: $color-background;
+	z-index: 1000;
+	position: fixed;
+	top: 0;	
+	height: $header-height;
+
+	@include transitionall(0.5s);
 
 	.header-logo-container {
 		display: flex;
@@ -143,8 +153,18 @@ p {
 		align-items: center;
 
 		img {
-			max-width: 10rem;
+			width: 10rem;
 		}
+	}
+
+		&.sticky{
+		height: 6.5rem;
+		.header-logo-container {
+			padding-bottom: 0;
+			img {
+				width: 3rem;
+			}
+		}		
 	}
 
 	//@import "partials/navigation";
@@ -206,6 +226,7 @@ p {
 			display: flex;
 		}
 	}
+
 }
 
 // FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
@@ -264,6 +285,10 @@ p {
 
 	padding-top: 15rem;
 	padding-bottom: 15rem;
+
+	&.video-section{
+		min-height: auto;
+	}
 
 	&::before {
 		position: absolute;
@@ -412,6 +437,27 @@ a.body-link {
 	background-color: $color-beige;
 }
 
+.section-triple {
+	background-color: $color-beige;
+
+	.display-section {
+		padding: 0;
+		align-items: stretch;
+
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			padding: 1rem 3rem;
+		}
+
+		div:nth-child(2) {
+			background-color: $color-background;
+		}
+	}
+}
+
 .alt-background {
 	background-color: $color-beige;
 }
@@ -426,6 +472,37 @@ a.body-link {
 @import "partials/pages/didyouknow";
 
 @import "partials/news";
+
+// FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS 
+// FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS 
+// FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS FORMS 
+
+div.wpforms-container.rose-form{
+	.wpforms-form{
+	.wpforms-field-row.wpforms-field-medium{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	input.wpforms-field-medium{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	button[type="submit"]{
+		border-radius: .5rem;
+		background-color: $color-background;
+
+		font-family: "Raleway", sans-serif;
+		color: $color-text;
+	}
+	.wpforms-field-label{
+		font-family: "Raleway", sans-serif;
+		color: $color-text;
+	}
+	}
+}
+
 
 // MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES
 // MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES

@@ -32,8 +32,7 @@
 					<div class="box col-12  header-logo-container">
 						<img src="<?php bloginfo('template_url'); ?>/assets/img/rosepharma_logo.svg" alt="">
 					</div>
-					<div class="box col-12">
-
+					<div class="box col-12 navigation-container">
 					<nav id="site-navigation" class="main-navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'rosepharma' ); ?></button>
 						<?php

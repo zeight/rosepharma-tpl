@@ -175,6 +175,7 @@ function rosepharma_scripts() {
 	wp_enqueue_script( 'rosepharma-plyr', get_template_directory_uri() . '/assets/plyr/plyr.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'rosepharma-plyr-loader', get_template_directory_uri() . '/assets/js/custom/plyr_loader.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'rosepharma-navigation', get_template_directory_uri() . '/assets/js/custom/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'rosepharma-scripts', get_template_directory_uri() . '/assets/js/custom/rose_scripts.js', array(), _S_VERSION, true );
 	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

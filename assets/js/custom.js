@@ -137,3 +137,37 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 "use strict";
 
 var player = new Plyr('#player');
+"use strict";
+
+//var player = new Plyr('#player');
+/////////////////////////////////////////////////////////////////////////
+// READY CLASSIC
+/////////////////////////////////////////////////////////////////////////
+(function ready() {
+  if (document.readyState != 'loading') {
+    var scrollpos = window.scrollY;
+    var header = document.querySelector(".site-header");
+    var header_height = header.offsetHeight;
+
+    var add_class_on_scroll = function add_class_on_scroll() {
+      return header.classList.add("sticky");
+    };
+
+    var remove_class_on_scroll = function remove_class_on_scroll() {
+      return header.classList.remove("sticky");
+    };
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) {
+        add_class_on_scroll();
+      } else {
+        remove_class_on_scroll();
+      } //console.log(scrollpos)
+
+    });
+  } else {
+    document.addEventListener('DOMContentLoaded', ready);
+  }
+})();

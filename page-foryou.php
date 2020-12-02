@@ -94,7 +94,7 @@ get_header();
 </div>	
 
 		<div class="wrapper">
-			<section class="container full section-4">
+			<section class="container full section-triple">
 				<div class="container">
 					<div class="columns-wrapper display-section even">
 						<div class="box col-4">

@@ -55,6 +55,7 @@ Contact us and we will be happy to help you.</p>
 						</div>					
 						<div class="box col-6">
 							<!-- Contacts -->
+							<?php echo do_shortcode('[wpforms id="50" title="false" description="false"]') ?> 
 						</div>
 				</div>
 			</div>
@@ -63,7 +64,7 @@ Contact us and we will be happy to help you.</p>
 	
 
 		<div class="wrapper">
-			<section class="container full section-3">
+			<section class="container full section-triple">
 				<div class="container">
 					<div class="columns-wrapper display-section even">
 						<div class="box col-4">

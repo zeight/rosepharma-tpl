@@ -11,30 +11,4 @@
 			align-items: flex-start;
 		}
 	}
-	.section-8 {
-		background-color: $color-beige;
-
-		.display-section {
-			padding: 0;
-			align-items: stretch;
-
-			div {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				text-align: center;
-				padding: 1rem 3rem;
-			}
-
-			div:nth-child(1) {
-				background-color: $color-beige;
-			}
-			div:nth-child(2) {
-				background-color: $color-background;
-			}
-			div:nth-child(3) {
-				background-color: $color-beige;
-			}
-		}
-	}
 }

@@ -12,273 +12,279 @@
 get_header();
 ?>
 
-	<main id="primary" class="wrapper full professionals-page">
+<main id="primary" class="wrapper full professionals-page">
 
-	<div class="wrapper">
-			<section class="container full section-header">
-				<div class="container">
-					<div class="columns-wrapper display-section even">
-						<div class="box col-6">
-							<h2>Professional Hyaluronic Acide Injection</h2>
-						</div>
-						<div class="box col-6 nopadding">
-						<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-0.jpg" alt="">			
-						</div>
-					</div>
-				</div>
-		</section>
-	</div>
-
-
-	<div class="wrapper">
-			<section class="container full section-1">
-				<div class="container">
-					<div class="columns-wrapper display-section odd">
-						<div class="box col-6">
-							<p>
-The development of premium fi llers and cosmetics
-is accompanied by the care that we also put in the
-relationship with the professionals who rely on our
-products.
-
-That’s why we make sure to provide high-level
-products along with precise and innovative tools, so
-that professional hyaluronic acid injection are as
-safe and easy to use as possible.
-
-On this dedicated page, professionals can explore
-our products at 360°: dermal fi llers, complementary
-treatments, anti wrinkle solution, technical features
-and characteristics of the tools provided for
-professional hyaluronic acid injection.
-							</p>
-												
-						</div>
-						<div class="box col-6">	</div>
-					</div>
-				</div>
-		</section>
-	</div>
-
-	<div class="wrapper">
-		<section class="container full section-2">
-			<div class="container">
-				<div class="columns-wrapper display-section even">
-					<div class="box col-12 content">
-						<h2>Rose Pharma</h2>
-					</div>
-					<div class="box col-6 content">
-						<p>Zhoabex (Medical Device Class III) is a premium quality
-						mono-phasic fi ller made of ultra-pure cross-linked
-						hyaluronic acid and characterized by high cohesivity.
-
-						Zhoabex fi llers guarantee a double benefi t:
-						• Flexibility of lifting
-						• Bio revitalization of the skin (lifting + hydration)
-
-						This double advantage comes from our premium formula,
-						which mixes diff erent Hyaluronic Acid molecular weights
-						(high & low).
-						Diff erent levels of cross linking allow us to compose
-						a wide range of products, ideal for diff erent areas and
-						diff erent aesthetic and functional needs. The choice
-						whether to use one or the other product indication is
-						determined by physicians, who know how to identify the
-						correct treatment according to the requirements of each
-						area.
-
-						Some of the greater benefi ts our products off er to the
-						physicians are:
-						• Optimize tissue integration
-						• Provide natural results</p>
-					</div>
-					<div class="box col-6 content">
-						<p>Our professional hyaluronic acid injection kits are
-						designed to restore physiological facial volume thanks to
-						the temporary volumetric increase through growth of the
-						soft tissues.
-
-						Our fi llers are indicated for the treatment of imperfections
-						in the following areas of the face:
-
-						• nasolabial folds
-
-						• mouth – perioral area wrinkles
-
-						• facial - acne scars
-
-						• glabella wrinkles
-
-						• wrinkles on the forehead
-
-						• increase in volume of the chin
-
-						• increase in volume of the cheecks and cheekbones
-
-						• increase in volume of the lips</p>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-	</div>	
+  <div class="wrapper">
+    <section class="container full section-header">
+      <div class="container">
+        <div class="columns-wrapper display-section even">
+          <div class="box col-6">
+            <h2>Professional Hyaluronic Acide Injection</h2>
+          </div>
+          <div class="box col-6 nopadding">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-0.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
 
-	<div class="wrapper">
-		<section class="container full section-single-image">
-			<div class="container">
-				<div class="columns-wrapper display-section odd">
-						<div class="box col-6 ">
-							<h2>Find out our product</h2>
-							<p>Enter a world of beauty, care and premium
-products for your skin.
-Rose Pharma develops safe treatments for the
-daily routine, eff ective cosmetics and professional
-solutions to be you – at your best.</p>
+  <div class="wrapper">
+    <section class="container full section-1">
+      <div class="container">
+        <div class="columns-wrapper display-section odd">
+          <div class="box col-6">
+            <p>
+              The development of premium fi llers and cosmetics
+              is accompanied by the care that we also put in the
+              relationship with the professionals who rely on our
+              products.
 
-<a class="body-link" href="#"><span>Find out</span></a>
-						</div>
-						<div class="box col-6 image-box">
-							<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
-						</div>
-				</div>
-			</div>
-		</section>
-	</div>
-	
-	<div class="wrapper">
-		<section class="container full section-single-image">
-			<div class="container">
-				<div class="columns-wrapper display-section even">
-						<div class="box col-6 image-box">
-							<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
-						</div>					
-						<div class="box col-6 ">
-							<h2>Find out our product</h2>
-							<p>Enter a world of beauty, care and premium
-products for your skin.
-Rose Pharma develops safe treatments for the
-daily routine, eff ective cosmetics and professional
-solutions to be you – at your best.</p>
+              That’s why we make sure to provide high-level
+              products along with precise and innovative tools, so
+              that professional hyaluronic acid injection are as
+              safe and easy to use as possible.
 
-<a class="body-link" href="#"><span>Find out</span></a>
-						</div>
-				</div>
-			</div>
-		</section>
-	</div>	
+              On this dedicated page, professionals can explore
+              our products at 360°: dermal fi llers, complementary
+              treatments, anti wrinkle solution, technical features
+              and characteristics of the tools provided for
+              professional hyaluronic acid injection.
+            </p>
 
-	<div class="wrapper">
-		<section class="container full section-single-image">
-			<div class="container">
-				<div class="columns-wrapper display-section odd">
-						<div class="box col-6 ">
-							<h2>Find out our product</h2>
-							<p>Enter a world of beauty, care and premium
-products for your skin.
-Rose Pharma develops safe treatments for the
-daily routine, eff ective cosmetics and professional
-solutions to be you – at your best.</p>
+          </div>
+          <div class="box col-6"> </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-<a class="body-link" href="#"><span>Find out</span></a>
-						</div>
-						<div class="box col-6 image-box">
-							<img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
-						</div>
-				</div>
-			</div>
-		</section>
-	</div>	
+  <div class="wrapper">
+    <section class="container full section-2">
+      <div class="container">
+        <div class="columns-wrapper display-section even">
+          <div class="box col-12 content">
+            <h2>Rose Pharma</h2>
+          </div>
+          <div class="box col-6 content">
+            <p>Zhoabex (Medical Device Class III) is a premium quality
+              mono-phasic fi ller made of ultra-pure cross-linked
+              hyaluronic acid and characterized by high cohesivity.
+
+              Zhoabex fi llers guarantee a double benefi t:
+              • Flexibility of lifting
+              • Bio revitalization of the skin (lifting + hydration)
+
+              This double advantage comes from our premium formula,
+              which mixes diff erent Hyaluronic Acid molecular weights
+              (high & low).
+              Diff erent levels of cross linking allow us to compose
+              a wide range of products, ideal for diff erent areas and
+              diff erent aesthetic and functional needs. The choice
+              whether to use one or the other product indication is
+              determined by physicians, who know how to identify the
+              correct treatment according to the requirements of each
+              area.
+
+              Some of the greater benefi ts our products off er to the
+              physicians are:
+              • Optimize tissue integration
+              • Provide natural results</p>
+          </div>
+          <div class="box col-6 content">
+            <p>Our professional hyaluronic acid injection kits are
+              designed to restore physiological facial volume thanks to
+              the temporary volumetric increase through growth of the
+              soft tissues.
+
+              Our fi llers are indicated for the treatment of imperfections
+              in the following areas of the face:
+
+              • nasolabial folds
+
+              • mouth – perioral area wrinkles
+
+              • facial - acne scars
+
+              • glabella wrinkles
+
+              • wrinkles on the forehead
+
+              • increase in volume of the chin
+
+              • increase in volume of the cheecks and cheekbones
+
+              • increase in volume of the lips</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
 
 
-	<div class="wrapper">
-		<section class="container full section-7">
-			<div class="container">
-				<div class="columns-wrapper display-section even">
-					<div class="box col-6 content">
-						<h2>Professional
-hyaluronic acid
-injection:
-Our syringes</h2>
-						<p>Providing high quality tools is an essential part of our
-mission.
+  <div class="wrapper">
+    <section class="container full section-single-image">
+      <div class="container">
+        <div class="columns-wrapper display-section odd">
+          <div class="box col-6 ">
+            <h2>Find out our product</h2>
+            <p>Enter a world of beauty, care and premium
+              products for your skin.
+              Rose Pharma develops safe treatments for the
+              daily routine, eff ective cosmetics and professional
+              solutions to be you – at your best.</p>
 
-Our BD Hylock syringes for professional hyaluronic acid
-injection are the result of advanced research:
-• Glass Syringe
-• Steam Sterilization
-• Pre-fi llable
-• Easy to use
-• BD Hylok LLA resists a pull-out force 3Xhigher
-• BD Hylok LLA resists rotational torque 5Xhigher
-• Superior Performances
+            <a class="body-link" href="#"><span>Find out</span></a>
+          </div>
+          <div class="box col-6 image-box">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-Our syringes allow professionals to work with maximum
-comfort and obtain the expected result after a fl awless
-procedure.</p>
-					</div>
-					<div class="box col-6 content">
-						<h2>Professional
-hyaluronic acid
-injection:
-Our needles</h2>
-						<p>Our TSK needles are the complement of our syringes.
-They combine ULTRA Thin Wall technology with the
-unique HPC Advance Hub geometry.
+  <div class="wrapper">
+    <section class="container full section-single-image">
+      <div class="container">
+        <div class="columns-wrapper display-section even">
+          <div class="box col-6 image-box">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
+          </div>
+          <div class="box col-6 ">
+            <h2>Find out our product</h2>
+            <p>Enter a world of beauty, care and premium
+              products for your skin.
+              Rose Pharma develops safe treatments for the
+              daily routine, eff ective cosmetics and professional
+              solutions to be you – at your best.</p>
 
-Their combined characteristics allow our needles to have
-the best possible fl ow rate.
+            <a class="body-link" href="#"><span>Find out</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-Each professional hyaluronic acid injection becomes
-easier and more comfortable, making treatment more
-accurate and improving the experience for patients.</p>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-	</div>
+  <div class="wrapper">
+    <section class="container full section-single-image">
+      <div class="container">
+        <div class="columns-wrapper display-section odd">
+          <div class="box col-6 ">
+            <h2>Find out our product</h2>
+            <p>Enter a world of beauty, care and premium
+              products for your skin.
+              Rose Pharma develops safe treatments for the
+              daily routine, eff ective cosmetics and professional
+              solutions to be you – at your best.</p>
 
-		<div class="wrapper">
-			<section class="container full section-8">
-				<div class="container">
-					<div class="columns-wrapper display-section odd">
-						<div class="box col-4">
-							<h3>hyaluronic Acid</h3>
-							<p>Premium product, global care: our claim describes the key points of <b>Rose Pharma - Zhoabex</b> hyaluronic acid dermal fi llers and complementary treatments.Find our <b>professional information</b> in the dedicated area.</p>
-							<a class="body-link" href="#"><span>Find out</span></a>							
-						</div>
-						<div class="box col-4">
-							<h3>Did you know?</h3>
-							<p>Premium product, global care: our claim describes the key points of <b>Rose Pharma - Zhoabex</b> hyaluronic acid dermal fi llers and complementary treatments.Find our <b>professional information</b> in the dedicated area.</p>
-							<a class="body-link" href="#"><span>Find out</span></a>
-						</div>
-						<div class="box col-4">
-							<h3>About us</h3>
-							<p>Premium product, global care: our claim describes the key points of <b>Rose Pharma - Zhoabex</b> hyaluronic acid dermal fi llers and complementary treatments.Find our <b>professional information</b> in the dedicated area.</p>
-							<a class="body-link" href="#"><span>Find out</span></a>
-						</div>
-					</div>
-				</div>
-		</section>
-	</div>
-	
-	<div class="wrapper">
-		<section class="container full section-9">
-			<div class="container">
-				<div class="columns-wrapper display-section even">
-					<div class="box col-4 center">
-							<h2>Contact us</h2>
-							<h3>For more information</h3>
-							<a class="body-link" href="#"><span>Contact us</span></a>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-	</div>				
+            <a class="body-link" href="#"><span>Find out</span></a>
+          </div>
+          <div class="box col-6 image-box">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/about-section-3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-	</main><!-- #main -->
+
+  <div class="wrapper">
+    <section class="container full section-7">
+      <div class="container">
+        <div class="columns-wrapper display-section even">
+          <div class="box col-6 content">
+            <h2>Professional
+              hyaluronic acid
+              injection:
+              Our syringes</h2>
+            <p>Providing high quality tools is an essential part of our
+              mission.
+
+              Our BD Hylock syringes for professional hyaluronic acid
+              injection are the result of advanced research:
+              • Glass Syringe
+              • Steam Sterilization
+              • Pre-fi llable
+              • Easy to use
+              • BD Hylok LLA resists a pull-out force 3Xhigher
+              • BD Hylok LLA resists rotational torque 5Xhigher
+              • Superior Performances
+
+              Our syringes allow professionals to work with maximum
+              comfort and obtain the expected result after a fl awless
+              procedure.</p>
+          </div>
+          <div class="box col-6 content">
+            <h2>Professional
+              hyaluronic acid
+              injection:
+              Our needles</h2>
+            <p>Our TSK needles are the complement of our syringes.
+              They combine ULTRA Thin Wall technology with the
+              unique HPC Advance Hub geometry.
+
+              Their combined characteristics allow our needles to have
+              the best possible fl ow rate.
+
+              Each professional hyaluronic acid injection becomes
+              easier and more comfortable, making treatment more
+              accurate and improving the experience for patients.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="wrapper">
+    <section class="container full section-triple">
+      <div class="container">
+        <div class="columns-wrapper display-section odd">
+          <div class="box col-4">
+            <h3>hyaluronic Acid</h3>
+            <p>Premium product, global care: our claim describes the key points of <b>Rose Pharma - Zhoabex</b>
+              hyaluronic acid dermal fi llers and complementary treatments.Find our <b>professional information</b> in
+              the dedicated area.</p>
+            <a class="body-link" href="#"><span>Find out</span></a>
+          </div>
+          <div class="box col-4">
+            <h3>Did you know?</h3>
+            <p>Premium product, global care: our claim describes the key points of <b>Rose Pharma - Zhoabex</b>
+              hyaluronic acid dermal fi llers and complementary treatments.Find our <b>professional information</b> in
+              the dedicated area.</p>
+            <a class="body-link" href="#"><span>Find out</span></a>
+          </div>
+          <div class="box col-4">
+            <h3>About us</h3>
+            <p>Premium product, global care: our claim describes the key points of <b>Rose Pharma - Zhoabex</b>
+              hyaluronic acid dermal fi llers and complementary treatments.Find our <b>professional information</b> in
+              the dedicated area.</p>
+            <a class="body-link" href="#"><span>Find out</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="wrapper">
+    <section class="container full section-9">
+      <div class="container">
+        <div class="columns-wrapper display-section even">
+          <div class="box col-4 center">
+            <h2>Contact us</h2>
+            <h3>For more information</h3>
+            <a class="body-link" href="#"><span>Contact us</span></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+</main><!-- #main -->
 
 <?php
 //get_sidebar();
