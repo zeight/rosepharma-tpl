@@ -145,29 +145,45 @@ var player = new Plyr('#player');
 /////////////////////////////////////////////////////////////////////////
 (function ready() {
   if (document.readyState != 'loading') {
-    var scrollpos = window.scrollY;
-    var header = document.querySelector(".site-header");
-    var header_height = header.offsetHeight;
-
-    var add_class_on_scroll = function add_class_on_scroll() {
-      return header.classList.add("sticky");
-    };
-
-    var remove_class_on_scroll = function remove_class_on_scroll() {
-      return header.classList.remove("sticky");
-    };
-
-    window.addEventListener('scroll', function () {
-      scrollpos = window.scrollY;
-
-      if (scrollpos >= header_height) {
-        add_class_on_scroll();
-      } else {
-        remove_class_on_scroll();
-      } //console.log(scrollpos)
-
-    });
+    squeezeHeader(); //itemInView('.mover')
   } else {
     document.addEventListener('DOMContentLoaded', ready);
   }
 })();
+
+function squeezeHeader() {
+  var scrollpos = window.scrollY;
+  var header = document.querySelector(".site-header");
+  var header_height = header.offsetHeight;
+
+  var add_class_on_scroll = function add_class_on_scroll() {
+    return header.classList.add("sticky");
+  };
+
+  var remove_class_on_scroll = function remove_class_on_scroll() {
+    return header.classList.remove("sticky");
+  };
+
+  window.addEventListener('scroll', function () {
+    scrollpos = window.scrollY;
+
+    if (scrollpos >= header_height) {
+      add_class_on_scroll();
+    } else {
+      remove_class_on_scroll();
+    } //console.log(scrollpos)
+
+  });
+}
+
+function itemInView(identifier) {
+  var item = document.querySelector(identifier);
+  var rect = item.getBoundingClientRect();
+  window.addEventListener('scroll', function () {
+    if (rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    /* or $(window).height() */
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    /* or $(window).width() */
+    ) alert('visible');
+  });
+}

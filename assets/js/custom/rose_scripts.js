@@ -6,7 +6,16 @@
 (function ready() {
   if (document.readyState != 'loading') {
     
-    let scrollpos = window.scrollY
+    squeezeHeader()
+    //itemInView('.mover')
+
+  } else {
+      document.addEventListener('DOMContentLoaded', ready);
+  }
+})();
+
+function squeezeHeader() {
+ let scrollpos = window.scrollY
     const header = document.querySelector(".site-header")
     const header_height = header.offsetHeight
 
@@ -21,9 +30,23 @@
     else { remove_class_on_scroll() }
 
     //console.log(scrollpos)
-  })
+  })  
+}
+
+function itemInView(identifier) {
+
+  const item = document.querySelector(identifier)
+  let rect = item.getBoundingClientRect()
+
     
-  } else {
-      document.addEventListener('DOMContentLoaded', ready);
-  }
-})();
+    
+    window.addEventListener('scroll', function() { 
+      if (
+         rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /* or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /* or $(window).width() */
+      ) alert('visible')
+    }) 
+  
+}

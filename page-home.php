@@ -13,9 +13,8 @@ get_header();
 ?>
 
 <main id="primary" class="wrapper full home-page">
-
   <div class="wrapper">
-    <section class="container full section-0">
+    <section class="container full section-video-wrapper">
       <div class="columns-wrapper display-section video-section even">
         <div class="box col-12 nopadding">
           <!-- <video playsInline controls id="mainVid" className="video-player">
@@ -57,7 +56,7 @@ get_header();
   </div>
 
   <div class="wrapper">
-    <section class="container full section-2">
+    <section class="container full section-two-columns-a">
       <div class="container">
         <div class="columns-wrapper display-section even">
           <div class="box col-5 ">
@@ -69,7 +68,7 @@ get_header();
           <div class="box col-2 mobile-hide">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/rosepharma_logo-nos.png" alt="">
           </div>
-          <div class="box col-5 ">
+          <div class="box col-5 mover">
             <h2>Distributors</h2>
             <p>In the dedicated area you have access to useful information about our company and specific tools to
               become one of <b>Rose Pharma distributors.</b></p>
@@ -118,7 +117,7 @@ get_header();
   </div>
 
   <div class="wrapper">
-    <section class="container full section-5">
+    <section class="container full section-contact-us">
       <div class="container">
         <div class="columns-wrapper display-section odd center">
           <div class="box col-12">
