@@ -12,7 +12,7 @@
     <section class="container full section-single-image-back"
       style="background-image: url(<?php block_field( 'image-background' ); ?>)">
       <?php else : ?>
-      <section class="container full section-single-image">
+      <section class="container full section-single-image-back">
         <?php endif ?>
 
         <div class="container">

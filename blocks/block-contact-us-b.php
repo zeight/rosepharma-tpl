@@ -1,5 +1,5 @@
   <?php
-    // Title color
+    // Background color
     if ( (! empty(block_field( 'background-style', false ))) && (block_field( 'background-style', false ) === 'alternate')) 
       $section_class = "alternate"; 
     else 
