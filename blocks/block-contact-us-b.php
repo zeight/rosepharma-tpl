@@ -4,7 +4,6 @@
       $section_class = "alternate"; 
     else 
     $section_class = null; 
-  
   ?>
 
 

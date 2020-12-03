@@ -1,10 +1,6 @@
   <?php
     $text_position = block_field( 'text-position', false ); 
-    // Title case
-    if ( (block_field( 'title-style', false ) === 'lowercase')) 
-      $title_class = "lowercase"; 
-    else 
-    $title_class = null;       
+    $shortcode_string = '[wpforms id="'.block_field( 'form-id', false ).'" title="false" description="false"]';
   ?>
 
   <div class="wrapper <?php block_field('className'); ?>">
@@ -18,27 +14,38 @@
 
         <div class="container">
           <div class="columns-wrapper display-section <?php block_field( 'position-style' ); ?>">
+            <?php  if ( ! empty(block_field( 'title', false )) ) : ?>
+            <div class="box col-12">
+              <h2><?php block_field( 'title' ); ?></h2>
+            </div>
+            <?php endif; ?>
 
+            <?php  if ( ! empty(block_field( 'content', false )) ) : ?>
             <?php if($text_position === 'right') : ?>
             <div class="box col-6">
+              <!-- Contacts -->
+              <?php echo do_shortcode($shortcode_string) ?>
             </div>
             <?php endif ?>
             <div class="box col-6 ">
-              <?php  if ( ! empty(block_field( 'title', false )) ) : ?>
-              <h2 class="<?php echo $title_class ?>"><?php block_field( 'title' ); ?></h2>
-              <?php endif; ?>
-
-              <p><?php block_field( 'content' ); ?></p>
-              <?php  if ( ! empty(block_field( 'link-right', false )) ) : ?>
-              <a class="body-link"
-                href="<?php block_field( 'link-right' ); ?>"><span><?php block_field( 'link-text-right' ); ?></span>
-              </a>
-              <?php endif; ?>
+              <?php block_field( 'content' ); ?>
             </div>
             <?php if($text_position === 'left') : ?>
             <div class="box col-6">
+              <!-- Contacts -->
+              <?php echo do_shortcode($shortcode_string) ?>
             </div>
             <?php endif ?>
+            <?php else : ?>
+            <div class="box col-12">
+              <!-- Contacts -->
+              <?php echo do_shortcode($shortcode_string) ?>
+            </div>
+            <?php endif ?>
+
+
+
+
           </div>
         </div>
       </section>

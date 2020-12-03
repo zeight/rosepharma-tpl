@@ -122,6 +122,7 @@ a.body-link:hover::before{left:50%;width:0;border-color:transparent}
 .section-triple .display-section div:nth-child(2){background-color:white}
 .title-alternate h2{color:#959094}
 .section-two-columns-a h2{color:#959094}
+.lowercase{text-transform:none}
 .section-two-columns-b .display-section{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .section-contact-us.image .display-section{min-height:60vh}
 .section-contact-us .display-section{padding-bottom:0}
@@ -130,6 +131,8 @@ a.body-link:hover::before{left:50%;width:0;border-color:transparent}
 .alt-background{background-color:#f3f6f5}
 .section-single-image-big{background-position:center right;background-size:contain;background-repeat:no-repeat}
 .section-single-image-big .image-back{-ms-flex-item-align:stretch;align-self:stretch;justify-self:stretch}
+.section-single-image-back{background-position:center right;background-size:contain;background-repeat:no-repeat}
+.section-single-image-back .image-back{-ms-flex-item-align:stretch;align-self:stretch;justify-self:stretch;background-position:center left;background-size:contain;background-repeat:no-repeat}
 .about-page .section-1{background-image:url("./assets/img/about-section-1.jpg");background-position:top center;background-size:cover;background-repeat:no-repeat}
 .about-page .section-6{background-color:#f3f6f5}
 .foryou-page .section-1{background-image:url("./assets/img/section-1.jpg");background-position:top center;background-size:cover;background-repeat:no-repeat}

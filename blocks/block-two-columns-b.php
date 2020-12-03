@@ -6,6 +6,12 @@
     // Title color
     if ( (! empty(block_field( 'title-color', false ))) && (block_field( 'title-color', false ) === 'alternate')) 
       $section_class .= "title-alternate"; 
+
+    // Title case
+    if ( (block_field( 'title-style', false ) === 'lowercase')) 
+      $title_class = "lowercase"; 
+    else 
+    $title_class = null;       
   ?>
   <div class="wrapper <?php block_field('className'); ?>">
 
@@ -26,12 +32,13 @@
             // If at least one is empty
             if ( (!empty(block_field( 'title-left', false ))) xor (!empty(block_field( 'title-right', false ))) ) : ?>
             <div class="box col-12 content">
-              <h2><?php block_field( 'title-left' ); block_field( 'title-right' ); ?></h2>
+              <h2 class="<?php echo $title_class ?>"><?php block_field( 'title-left' ); block_field( 'title-right' ); ?>
+              </h2>
             </div>
             <?php endif ;?>
             <div class="box col-6 ">
               <?php if ( (!empty(block_field( 'title-left', false ))) && (!empty(block_field( 'title-right', false ))) ) : ?>
-              <h2><?php block_field( 'title-left' ); ?></h2>
+              <h2 class="<?php echo $title_class ?>"><?php block_field( 'title-left' ); ?></h2>
               <?php endif ;?>
               <p><?php block_field( 'content-left' ); ?></p>
 
@@ -43,7 +50,7 @@
             </div>
             <div class="box col-6 ">
               <?php if ( (!empty(block_field( 'title-left', false ))) && (!empty(block_field( 'title-right', false ))) ) : ?>
-              <h2><?php block_field( 'title-right' ); ?></h2>
+              <h2 class="<?php echo $title_class ?>"><?php block_field( 'title-right' ); ?></h2>
               <?php endif ;?>
               <p><?php block_field( 'content-right' ); ?></p>
 

@@ -506,6 +506,10 @@ a.body-link {
 			color: $color-text;
 		}
 }
+
+.lowercase{
+	text-transform: none;
+}
 .section-two-columns-b{
 	.display-section {
 			flex-direction: row;
@@ -546,6 +550,21 @@ a.body-link {
 			.image-back {
 			align-self: stretch;
 			justify-self: stretch;
+		}
+}
+
+.section-single-image-back{
+		background-position: center right;
+		background-size: contain;
+		background-repeat: no-repeat;	
+
+			.image-back {
+			align-self: stretch;
+			justify-self: stretch;
+
+			background-position: center left;
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 }
 
