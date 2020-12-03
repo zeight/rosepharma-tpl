@@ -1,4 +1,9 @@
 @media only screen and (max-width: 480px) {
+
+body {
+	padding-top: $mobile-header-height;
+}
+	
 	h1 {
 		font-size: 2.8rem;
 	}
@@ -14,6 +19,8 @@
 	// HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER
 
 	.site-header {
+		height: $mobile-header-height;
+
 		.header-logo-container {
 			padding-bottom: 0;
 			img {

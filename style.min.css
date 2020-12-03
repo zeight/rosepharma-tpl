@@ -81,7 +81,7 @@ p{padding:.5rem 0}
 .site-header .main-navigation ul.nav-menu li.current_page_item a{color:#b49653;font-weight:bold}
 .site-header .menu-toggle{display:block;margin:0 auto;border:0;background-color:transparent;padding:.5rem;background-image:url("./assets/img/menu-toggle.svg");background-position:center center;background-repeat:no-repeat;width:6rem;height:3rem}
 .site-header .menu-toggle:hover{cursor:pointer}
-.site-header .main-navigation.toggled ul.nav-menu{display:block}
+.site-header .main-navigation.toggled ul.nav-menu{display:block;background:white}
 .site-header .main-navigation.toggled ul.nav-menu li a{display:block;padding:.5rem 1rem;text-align:center}
 .site-social{background:#707070}
 .site-social h2{color:white}
@@ -183,9 +183,11 @@ div.wpforms-container.rose-form .wpforms-form .wpforms-field-label{font-family:"
 .box.col-4{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
 .box.col-3{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
 .box.col-2{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+body{padding-top:9rem}
 h1{font-size:2.8rem}
 h2{font-size:2.3rem}
 h3{font-size:1.5rem}
+.site-header{height:9rem}
 .site-header .header-logo-container{padding-bottom:0}
 .site-header .header-logo-container img{max-width:5rem}
 .site-header .navigation-container{padding-bottom:0}
