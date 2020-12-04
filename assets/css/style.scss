@@ -449,7 +449,13 @@ a.body-link {
 }
 
 .cover-background-left{
-		background-position: top left;
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cover-background-right{
+	background-position: top right;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -549,7 +555,11 @@ a.body-link {
 		background-size: contain;
 		background-repeat: no-repeat;	
 
-			.image-back {
+		.image-back {
+			// background-position: center right;
+			// background-size: contain;
+			// background-repeat: no-repeat;				
+			// 			min-height: 100vh;
 			align-self: stretch;
 			justify-self: stretch;
 		}

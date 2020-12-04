@@ -10,7 +10,7 @@
   <div class="wrapper <?php block_field('className'); ?>">
 
     <?php  if ( ! empty(block_field( 'image-background', false )) ) : ?>
-    <section class="container full cover-background-left"
+    <section class="container full cover-background-right"
       style="background-image: url(<?php block_field( 'image-background' ); ?>)">
       <?php else : ?>
       <section class="container full">

@@ -16,7 +16,8 @@
         <?php endif ?>
 
         <div class="container">
-          <div class="columns-wrapper display-section <?php block_field( 'position-style' ); ?>">
+          <div
+            class="columns-wrapper display-section <?php block_field( 'position-style' ); ?> <?php if($image_position === 'left') echo "mobile-reverse"; ?>">
 
             <?php if($image_position === 'right') : ?>
             <div class="box col-6 ">
