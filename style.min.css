@@ -82,9 +82,7 @@ p{padding:.5rem 0}
 .site-header .main-navigation ul{display:none;list-style:none;margin:0;padding-left:0}
 .site-header .main-navigation ul ul{-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2);float:left;position:absolute;top:100%;left:-999em;z-index:99999}
 .site-header .main-navigation ul ul ul{left:-999em;top:0}
-.site-header .main-navigation ul ul li:hover>ul,.site-header .main-navigation ul ul li.focus>ul{display:block;left:auto}
 .site-header .main-navigation ul ul a{width:200px}
-.site-header .main-navigation ul li:hover>ul,.site-header .main-navigation ul li.focus>ul{left:auto}
 .site-header .main-navigation li{position:relative}
 .site-header .main-navigation a{display:block;text-decoration:none}
 .site-header .menu-toggle,.site-header .main-navigation.toggled ul{display:block}
@@ -96,9 +94,9 @@ p{padding:.5rem 0}
 .site-header .main-navigation ul{display:none;list-style:none;margin:0;padding-left:0}
 .site-header .main-navigation ul ul{-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2);float:left;position:absolute;top:100%;left:-999em;z-index:99999}
 .site-header .main-navigation ul ul ul{left:-999em;top:0}
-.site-header .main-navigation ul ul li:hover>ul,.site-header .main-navigation ul ul li.focus>ul{display:block;left:auto}
+.site-header .main-navigation ul ul li:hover>ul{display:block;left:auto}
 .site-header .main-navigation ul ul a{width:200px}
-.site-header .main-navigation ul li:hover>ul,.site-header .main-navigation ul li.focus>ul{left:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.site-header .main-navigation ul li:hover>ul{left:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background:white}
 .site-header .main-navigation li{position:relative}
 .site-header .main-navigation ul li:hover>ul li,.site-header .main-navigation ul li.focus>ul li{left:auto}
 .site-header .main-navigation a{display:block;text-decoration:none}

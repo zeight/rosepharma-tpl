@@ -110,8 +110,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     }
 
     if (event.type === 'touchstart') {
-      var menuItem = this.parentNode;
-      event.preventDefault();
+      var menuItem = this.parentNode; //event.preventDefault();
 
       var _iterator3 = _createForOfIteratorHelper(menuItem.parentNode.children),
           _step3;
