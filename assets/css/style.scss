@@ -91,6 +91,12 @@ body {
 
 // THEME
 
+strong, b{
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	color: $color-darktext;
+}
+
 h1,
 h2,
 h3,
@@ -446,6 +452,10 @@ a.body-link {
 			display: none;
 		}
 	}
+
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .cover-background-left{

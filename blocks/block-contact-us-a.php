@@ -8,7 +8,7 @@
             <a class="body-link"
               href="<?php block_field( 'link' ); ?>"><span><?php block_field( 'link-text' ); ?></span></a>
           </div>
-          <div class="box col-12 nopadding">
+          <div class="box col-12 nopadding container">
             <img src="<?php block_field( 'display-image' ); ?>" alt="">
           </div>
         </div>
