@@ -153,6 +153,10 @@ p {
 
 	@include transitionall(0.5s);
 
+	.navigation-container{
+		overflow: visible;
+	}
+
 	.header-logo-container {
 		display: flex;
 		flex-direction: column;
@@ -174,7 +178,7 @@ p {
 		}		
 	}
 
-	//@import "partials/navigation";
+	@import "partials/navigation";
 
 	.main-navigation ul.nav-menu {
 		display: none;
@@ -190,6 +194,19 @@ p {
 					color: $color-highlight;
 					font-weight: bold;
 				}
+
+				> ul li a {
+					color: $color-text;
+					font-weight: normal;
+
+					&:hover{
+						color: $color-highlight;
+					}
+				}
+			}
+
+			a:hover{
+				color: $color-highlight;
 			}
 		}
 	}
@@ -233,6 +250,7 @@ p {
 		.main-navigation ul.nav-menu {
 			display: flex;
 		}
+
 	}
 
 }
@@ -590,14 +608,14 @@ a.body-link {
 		}
 }
 
-@import "partials/pages/homepage";
-@import "partials/pages/about";
-@import "partials/pages/foryou";
-@import "partials/pages/contacts";
-@import "partials/pages/professionals";
-@import "partials/pages/distribution";
-@import "partials/pages/acid";
-@import "partials/pages/didyouknow";
+// @import "partials/pages/homepage";
+// @import "partials/pages/about";
+// @import "partials/pages/foryou";
+// @import "partials/pages/contacts";
+// @import "partials/pages/professionals";
+// @import "partials/pages/distribution";
+// @import "partials/pages/acid";
+// @import "partials/pages/didyouknow";
 
 @import "partials/news";
 

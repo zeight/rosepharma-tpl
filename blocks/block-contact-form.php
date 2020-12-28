@@ -42,10 +42,6 @@
               <?php echo do_shortcode($shortcode_string) ?>
             </div>
             <?php endif ?>
-
-
-
-
           </div>
         </div>
       </section>
