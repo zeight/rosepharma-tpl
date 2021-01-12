@@ -15,7 +15,7 @@
 	  <section class="container full <?php echo $section_class ?>">
 	    <div class="container">
 	      <div class="columns-wrapper display-section <?php block_field( 'position-style' ); ?>">
-	        <div class="box col-12 center">
+	        <div class="box col-12">
 	          <h2 class="<?php echo $title_class ?>"><?php block_field( 'title' ); ?></h2>
 	          <?php block_field( 'content' ); ?>
 	        </div>

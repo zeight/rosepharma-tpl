@@ -5,8 +5,6 @@
     else 
     $section_class = null; 
   ?>
-
-
   <div class="wrapper <?php block_field('className'); ?>">
     <section class="container full section-contact-us <?php echo $section_class ?>">
       <div class="container">

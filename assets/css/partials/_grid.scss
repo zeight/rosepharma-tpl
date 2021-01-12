@@ -31,6 +31,7 @@
 
 	width: 90%;
 	max-width: $body-width; //1170
+	align-items: flex-start; //Safari fix
 
 	&.full {
 		width: 100%;
